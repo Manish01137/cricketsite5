@@ -31,7 +31,7 @@ document.addEventListener("DOMContentLoaded", () => {
       const p = form.querySelector('[name="phone"]').value.trim();
       if (!n || p.length < 10) { alert("Please enter a valid name and phone."); return; }
       const msg = encodeURIComponent(`Hi, I want a new cricket ID. Name: ${n}. Phone: ${p}. Please share details.`);
-      window.location.href = `https://wa.me/919000000000?text=${msg}`;
+      window.location.href = `https://wa.me/19207685046?text=${msg}`;
     });
   }
 
